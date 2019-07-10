@@ -1,0 +1,1 @@
+# typescript-issue-export-function-prototype
