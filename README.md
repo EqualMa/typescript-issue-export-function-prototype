@@ -8,4 +8,11 @@ To reproduce this issue:
 yarn
 npx tsc
 # then you can compare: dist/exception.d.ts and src/exception.ts
+
+# switch to branch ts-3.5.3
+# re-install dependencies
+yarn
+# re-compile
+npx tsc
+# then you will find dist/exception.d.ts is right
 ```
